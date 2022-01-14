@@ -15,9 +15,11 @@ const navigator = createStackNavigator(
   {
     initialRouteName: "Home",
     defaultNavigationOptions: {
-      title: "App", 
+      title: "App",
     },
   }
 );
 
 export default createAppContainer(navigator);
+
+
